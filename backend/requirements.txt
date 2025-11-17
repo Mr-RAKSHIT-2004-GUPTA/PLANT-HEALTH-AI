@@ -1,25 +1,19 @@
-# --- Core Backend Framework ---
-fastapi
-uvicorn
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+pydantic==2.6.3
+python-dotenv==1.0.1
 
-# --- AI / ML ---
-tensorflow
-numpy
-pillow
+# HuggingFace
+transformers==4.40.0
+huggingface-hub==0.23.0
 
-# --- Utilities ---
-python-dotenv
-requests
+# PyTorch CPU for Python 3.13 (Supported by Render)
+torch==2.5.1
 
-# --- Blockchain / Web3 ---
-web3
-eth-account
+# Image processing
+Pillow==10.2.0
 
-# --- IPFS Upload ---
-ipfshttpclient
-
-# --- Data Models ---
-pydantic
-
-# --- CORS for frontend calls ---
-fastapi-cors
+# AI Clients
+groq==0.15.0
+elevenlabs==1.6.0
