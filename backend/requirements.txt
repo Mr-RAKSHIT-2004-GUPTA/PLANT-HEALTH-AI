@@ -1,0 +1,25 @@
+# --- Core Backend Framework ---
+fastapi
+uvicorn
+
+# --- AI / ML ---
+tensorflow
+numpy
+pillow
+
+# --- Utilities ---
+python-dotenv
+requests
+
+# --- Blockchain / Web3 ---
+web3
+eth-account
+
+# --- IPFS Upload ---
+ipfshttpclient
+
+# --- Data Models ---
+pydantic
+
+# --- CORS for frontend calls ---
+fastapi-cors
